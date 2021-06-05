@@ -1,0 +1,30 @@
+{
+  "name": "graphql-learn",
+  "version": "1.0.0",
+  "description": "Learn basics of graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server",
+    "json:server": "json-server --watch ./db/db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasannajit/graphql-learn.git"
+  },
+  "author": "prasannajit@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prasannajit/graphql-learn/issues"
+  },
+  "homepage": "https://github.com/prasannajit/graphql-learn#readme",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  }
+}
